@@ -1,0 +1,164 @@
+[
+  {
+    "venue_id": 1,
+    "event_name": "Concerts",
+    "venue_name": "Madison Square Garden",
+    "venue_location": "New York, NY",
+    "capacity": 20000,
+    "img_url": "https://i.ibb.co/zsLcj3b/Madison-Square-Garden.jpg",
+    "short_info": "Iconic arena known for hosting legendary concerts."
+  },
+  {
+    "venue_id": 2,
+    "event_name": "Music Festivals",
+    "venue_name": "Coachella Valley",
+    "venue_location": "Indio, CA",
+    "capacity": 125000,
+    "img_url": "https://i.ibb.co/9nmVxtD/Coachella-Valley.jpg",
+    "short_info": "Famous festival grounds for diverse music experiences."
+  },
+  {
+    "venue_id": 3,
+    "event_name": "Film Premieres",
+    "venue_name": "TCL Chinese Theatre",
+    "venue_location": "Los Angeles, CA",
+    "capacity": 1151,
+    "img_url": "https://i.ibb.co/BKLLS8L/TCL-Chinese-Theatre.jpg",
+    "short_info": "Historic cinema known for glamorous movie premieres."
+  },
+  {
+    "venue_id": 4,
+    "event_name": "Sports Events",
+    "venue_name": "AT&T Stadium",
+    "venue_location": "Arlington, TX",
+    "capacity": 80000,
+    "img_url": "https://i.ibb.co/4KzTFFL/AT-T-Stadium.jpg",
+    "short_info": "Home to the Dallas Cowboys and host to major sports events."
+  },
+  {
+    "venue_id": 5,
+    "event_name": "Comedy Shows",
+    "venue_name": "Comedy Cellar",
+    "venue_location": "New York, NY",
+    "capacity": 150,
+    "img_url": "https://i.ibb.co/71842y9/Comedy-Cellar.jpg",
+    "short_info": "Renowned comedy club with a cozy atmosphere."
+  },
+  {
+    "venue_id": 6,
+    "event_name": "Awards Shows",
+    "venue_name": "Dolby Theatre",
+    "venue_location": "Los Angeles, CA",
+    "capacity": 3400,
+    "img_url": "https://i.ibb.co/ygDQV7b/Dolby-Theatre.jpg",
+    "short_info": "Elegant venue known for hosting prestigious awards ceremonies."
+  },
+  {
+    "venue_id": 7,
+    "event_name": "Concerts",
+    "venue_name": "The Forum",
+    "venue_location": "Inglewood, CA",
+    "capacity": 17000,
+    "img_url": "https://i.ibb.co/yqhmFv7/The-Forum.jpg",
+    "short_info": "Legendary venue with a rich history of musical performances."
+  },
+  {
+    "venue_id": 8,
+    "event_name": "Music Festivals",
+    "venue_name": "Lollapalooza",
+    "venue_location": "Chicago, IL",
+    "capacity": 100000,
+    "img_url": "https://i.ibb.co/gRKdS0d/Lollapalooza.jpg",
+    "short_info": "Annual music festival showcasing a diverse lineup of artists."
+  },
+  {
+    "venue_id": 9,
+    "event_name": "Film Premieres",
+    "venue_name": "El Capitan Theatre",
+    "venue_location": "Hollywood, CA",
+    "capacity": 1000,
+    "img_url": "https://i.ibb.co/Hzy6mjt/El-Capitan-Theatre.jpg",
+    "short_info": "Historic theatre known for hosting movie premieres and events."
+  },
+  {
+    "venue_id": 10,
+    "event_name": "Sports Events",
+    "venue_name": "Arrowhead Stadium",
+    "venue_location": "Kansas City, MO",
+    "capacity": 76416,
+    "img_url": "https://i.ibb.co/C7XjY3y/Arrowhead-Stadium.jpg",
+    "short_info": "Home to the Kansas City Chiefs and venue for major sporting events."
+  },
+  {
+    "venue_id": 11,
+    "event_name": "Comedy Shows",
+    "venue_name": "The Comedy Store",
+    "venue_location": "Los Angeles, CA",
+    "capacity": 200,
+    "img_url": "https://i.ibb.co/RYhJ5rg/The-Comedy-Store.jpg",
+    "short_info": "Iconic comedy club known for hosting top comedians."
+  },
+  {
+    "venue_id": 12,
+    "event_name": "Awards Shows",
+    "venue_name": "The Metropolitan Opera House",
+    "venue_location": "New York, NY",
+    "capacity": 3800,
+    "img_url": "https://i.ibb.co/HHsz4f0/The-Metropolitan-Opera-House.png",
+    "short_info": "Historic venue hosting prestigious awards ceremonies and events."
+  },
+  {
+    "venue_id": 13,
+    "event_name": "Concerts",
+    "venue_name": "Hollywood Bowl",
+    "venue_location": "Los Angeles, CA",
+    "capacity": 17000,
+    "img_url": "https://i.ibb.co/BgbhX1y/Hollywood-Bowl.jpg",
+    "short_info": "Renowned amphitheater with a stunning outdoor setting."
+  },
+  {
+    "venue_id": 14,
+    "event_name": "Music Festivals",
+    "venue_name": "Bonnaroo Music Valley",
+    "venue_location": "Manchester, TN",
+    "capacity": 80000,
+    "img_url": "https://i.ibb.co/DbJRrMh/Bonnaroo-Music-Valley.jpg",
+    "short_info": "Lively festival with camping and diverse music genres."
+  },
+  {
+    "venue_id": 15,
+    "event_name": "Film Premieres",
+    "venue_name": "The Egyptian Theatre",
+    "venue_location": "Los Angeles, CA",
+    "capacity": 616,
+    "img_url": "https://i.ibb.co/02dm7z7/The-Egyptian-Theatre.jpg",
+    "short_info": "Historic theatre known for screenings and premieres."
+  },
+  {
+    "venue_id": 16,
+    "event_name": "Sports Events",
+    "venue_name": "Soldier Field",
+    "venue_location": "Chicago, IL",
+    "capacity": 61500,
+    "img_url": "https://i.ibb.co/yBvsD1C/Soldier-Field.jpg",
+    "short_info": "Home to the Chicago Bears and iconic sports events."
+  },
+  {
+    "venue_id": 17,
+    "event_name": "Comedy Shows",
+    "venue_name": "Improv Comedy Club",
+    "venue_location": "Los Angeles, CA",
+    "capacity": 150,
+    "img_url": "https://i.ibb.co/x59MR27/Improv-Comedy-Club.jpg",
+    "short_info": "Well-known comedy club with a history of great performances."
+  },
+  {
+    "venue_id": 18,
+    "event_name": "Awards Shows",
+    "venue_name": "Radio City Music Hall",
+    "venue_location": "New York, NY",
+    "capacity": 6015,
+    "img_url": "https://i.ibb.co/dLPBcfk/Radio-City-Music-Hall.png",
+    "short_info": "Iconic venue hosting prestigious awards ceremonies and events."
+  }
+]

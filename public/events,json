@@ -1,0 +1,80 @@
+[
+  {
+    "event_id": 1,
+    "event_name": "Concerts",
+    "short_description": "Live musical performances featuring bands or solo artists.",
+    "img_url": "https://i.ibb.co/hRGhKPx/Concerts.png",
+    "long_description": "Concerts are extraordinary live musical performances that captivate audiences with the raw energy and passion of bands or solo artists. The magic unfolds as talented musicians take the stage, creating an electric atmosphere that resonates with the soul of the audience. Our comprehensive services for concerts encompass every facet of the event, ensuring a seamless and unforgettable experience.\n\nFrom the initial stage setup and design, where we craft an environment that enhances the musical journey, to meticulous artist management that ensures smooth coordination, we leave no detail overlooked. Ticketing and seating arrangements are handled with precision to provide concert-goers with optimal comfort and accessibility. Additionally, our expertise in sound and lighting coordination guarantees that every note is heard crisply and every visual element enhances the overall spectacle.",
+    "our_services": [
+      "Stage setup and design",
+      "Artist management",
+      "Ticketing and seating arrangements",
+      "Sound and lighting coordination"
+    ]
+  },
+  {
+    "event_id": 2,
+    "event_name": "Music Festivals",
+    "short_description": "Large-scale events celebrating various genres of music.",
+    "img_url": "https://i.ibb.co/Gn11TFq/Music-Festivals.jpg",
+    "long_description": "Music Festivals are grand celebrations of musical diversity, uniting enthusiasts in a collective embrace of various genres. These large-scale events unfold across multiple stages, offering an immersive experience with a diverse lineup of artists. Our dedicated services for music festivals cover every aspect, ensuring the seamless orchestration of this musical extravaganza.\n\nEvent planning and logistics form the foundation, where we meticulously organize the myriad elements that contribute to the festival's success. Vendor coordination ensures a vibrant array of options for festival-goers, while our expertise in security and crowd management guarantees a safe and enjoyable environment. Sponsorship coordination adds an extra layer of support, ensuring that the festival thrives and continues to be a beacon for music lovers.",
+    "our_services": [
+      "Event planning and logistics",
+      "Vendor coordination",
+      "Security and crowd management",
+      "Sponsorship coordination"
+    ]
+  },
+  {
+    "event_id": 3,
+    "event_name": "Film Premieres",
+    "short_description": "Launch events for new movies, often attended by the cast and crew.",
+    "img_url": "https://i.ibb.co/86js6dK/Film-Premieres.jpg",
+    "long_description": "Film Premieres are glamorous affairs that mark the birth of cinematic masterpieces. Attended by the cast, crew, and sometimes celebrities, these events are a testament to the art of filmmaking. Our services for film premieres go beyond the red carpet, encompassing every detail to create an enchanting and memorable experience.\n\nRed carpet arrangements set the stage for the evening, offering a glimpse into the glitz and glamour of the film industry. VIP guest management ensures that every attendee receives the star treatment, and media coordination guarantees widespread coverage of this momentous occasion. The festivities extend into the night with after-party planning, creating a celebratory atmosphere that lingers in the hearts of all who attend.",
+    "our_services": [
+      "Red carpet arrangements",
+      "VIP guest management",
+      "Media coordination",
+      "After-party planning"
+    ]
+  },
+  {
+    "event_id": 4,
+    "event_name": "Sports Events",
+    "short_description": "Includes various sports competitions, such as football, basketball, soccer, etc.",
+    "img_url": "https://i.ibb.co/2SQ8tLH/Sports-Events.png",
+    "long_description": "Sports Events are the epitome of competition, drawing passionate fans who unite to cheer for their favorite teams. Encompassing a variety of sports like football, basketball, soccer, and more, these events are a celebration of athleticism and team spirit. Our services for sports events cover every aspect, ensuring a seamless and thrilling experience for both athletes and spectators.\n\nVenue selection and setup form the foundation, creating an environment that enhances the sporting spectacle. Ticket sales and box office management streamline the entry process, providing fans with easy access to the excitement. Security and crowd control measures are in place to ensure the safety of all attendees, while broadcasting coordination brings the action to a global audience, capturing every thrilling moment.",
+    "our_services": [
+      "Venue selection and setup",
+      "Ticket sales and box office management",
+      "Security and crowd control",
+      "Broadcasting coordination"
+    ]
+  },
+  {
+    "event_id": 5,
+    "event_name": "Comedy Shows",
+    "short_description": "Live performances by stand-up comedians or comedy troupes.",
+    "img_url": "https://i.ibb.co/yq7Rrcr/Comedy-Shows.png",
+    "long_description": "Comedy Shows are a riot of laughter, featuring live performances by stand-up comedians or comedy troupes. The spotlight is on humor and wit as comedians take the stage, entertaining the audience with their comedic prowess. Our services for comedy shows cover every comedic beat, ensuring a night filled with uproarious laughter.\n\nComedian booking and management bring the finest comedic talents to the stage, while venue setup and decoration create a welcoming and jovial atmosphere. Ticketing and promotion ensure that comedy enthusiasts are in on the joke, while audiovisual coordination guarantees that every punchline lands with perfect timing.",
+    "our_services": [
+      "Comedian booking and management",
+      "Venue setup and decoration",
+      "Ticketing and promotion",
+      "Audiovisual coordination"
+    ]
+  },
+  {
+    "event_id": 6,
+    "event_name": "Awards Shows",
+    "short_description": "Ceremonies honoring achievements in various fields, like the Oscars for film or the Grammy Awards for music.",
+    "img_url": "https://i.ibb.co/3YxGmTJ/Awards-Shows.jpg",
+    "long_description": "Awards Shows are prestigious ceremonies that honor outstanding achievements across various fields. From the iconic Oscars for film to the celebrated Grammy Awards for music, these events are a celebration of excellence and talent. Our services for awards shows encompass the intricate details that make these ceremonies unforgettable.\n\nEvent production and management form the backbone, ensuring a flawlessly executed ceremony that unfolds with grace. Nominee coordination guarantees that every achiever is acknowledged and celebrated. Red carpet arrangements set the stage for a glamorous entrance, while stage and lighting design elevate the ceremony into a visually stunning experience.",
+    "our_services": [
+      "Event production and management",
+      "Nominee coordination",
+      "Red carpet arrangements",
+      "Stage and lighting design"
+    ]
+  }
+]

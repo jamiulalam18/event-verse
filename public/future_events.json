@@ -1,0 +1,73 @@
+[
+    {
+      "event_id": 1,
+      "event_name": "Epic Concert Experience",
+      "description": "A spectacular concert featuring renowned artists and bands, promising an unforgettable musical journey.",
+      "location": "Los Angeles, USA",
+      "date": "2023-12-10"
+    },
+    {
+      "event_id": 2,
+      "event_name": "Winter Sports Spectacle",
+      "description": "An adrenaline-packed winter sports event featuring skiing, snowboarding, and ice skating competitions.",
+      "location": "Vancouver, Canada",
+      "date": "2023-12-15"
+    },
+    {
+      "event_id": 3,
+      "event_name": "City Lights Concert",
+      "description": "An enchanting evening under the city lights with a concert showcasing local talents and emerging artists.",
+      "location": "New York City, USA",
+      "date": "2023-12-15"
+    },
+    {
+      "event_id": 4,
+      "event_name": "Hollywood Film Premiere",
+      "description": "The glamorous premiere of a highly anticipated film, attended by the star-studded cast and industry celebrities.",
+      "location": "Hollywood, USA",
+      "date": "2023-12-28"
+    },
+    {
+      "event_id": 5,
+      "event_name": "Premiere Night Extravaganza",
+      "description": "A night of glitz and glamour with multiple film premieres, attended by international film stars.",
+      "location": "Cannes, France",
+      "date": "2023-12-18"
+    },
+    {
+      "event_id": 6,
+      "event_name": "Classic Rock Revival",
+      "description": "A nostalgic journey through the classics with a rock concert featuring legendary bands.",
+      "location": "London, UK",
+      "date": "2024-01-02"
+    },
+    {
+      "event_id": 7,
+      "event_name": "International Sports Championship",
+      "description": "A thrilling sports event featuring top athletes and teams competing for the championship title.",
+      "location": "London, UK",
+      "date": "2024-01-10"
+    },
+    {
+      "event_id": 8,
+      "event_name": "World Cup Soccer Showdown",
+      "description": "The pinnacle of soccer excitement with the world's best teams competing for the prestigious World Cup.",
+      "location": "Rio de Janeiro, Brazil",
+      "date": "2024-03-10"
+    },
+    {
+      "event_id": 9,
+      "event_name": "Global EDM Festival",
+      "description": "A high-energy electronic dance music festival featuring top DJs and mind-blowing light shows.",
+      "location": "Berlin, Germany",
+      "date": "2024-03-28"
+    },
+    {
+      "event_id": 10,
+      "event_name": "Summer Music Festival",
+      "description": "An immersive music festival celebrating summer vibes with diverse genres and top-tier musical acts.",
+      "location": "Miami, USA",
+      "date": "2024-04-20"
+    }
+  ]
+  

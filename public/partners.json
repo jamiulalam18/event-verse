@@ -1,0 +1,75 @@
+[
+  {
+    "partner_id": 1,
+    "name": "Ed Sheeran",
+    "img_url": "https://i.ibb.co/0VZhMwb/Ed-Sheeran.jpg"
+  },
+  {
+    "partner_id": 2,
+    "name": "Universal Pictures",
+    "img_url": "https://i.ibb.co/jMQcYmg/Universal-Pictures.jpg"
+  },
+  {
+    "partner_id": 3,
+    "name": "LeBron James",
+    "img_url": "https://i.ibb.co/kJP0V3H/Le-Bron-James.jpg"
+  },
+  {
+    "partner_id": 4,
+    "name": "International Olympic Committee (IOC)",
+    "img_url": "https://i.ibb.co/mR4Y0zQ/International-Olympic-Committee.png"
+  },
+  {
+    "partner_id": 5,
+    "name": "Coldplay",
+    "img_url": "https://i.ibb.co/7gsFhQm/Coldplay.jpg"
+  },
+  {
+    "partner_id": 6,
+    "name": "Ricky Gervais",
+    "img_url": "https://i.ibb.co/9GWmtdp/Ricky-Gervais.jpg"
+  },
+  {
+    "partner_id": 7,
+    "name": "Beyoncé",
+    "img_url": "https://i.ibb.co/3fJz1yT/Beyonce.png"
+  },
+  {
+    "partner_id": 8,
+    "name": "International Cricket Council (ICC)",
+    "img_url": "https://i.ibb.co/Tqqynjb/International-Cricket-Council.png"
+  },
+
+  {
+    "partner_id": 9,
+    "name": "Dave Chappelle",
+    "img_url": "https://i.ibb.co/5R9ZpRr/Dave-Chappelle.jpg"
+  },
+  {
+    "partner_id": 10,
+    "name": "Serena Williams",
+    "img_url": "https://i.ibb.co/G2TDYz1/Serena-Williams.jpg"
+  },
+  {
+    "partner_id": 11,
+    "name": "National Football League (NFL)",
+    "img_url": "https://i.ibb.co/pwSkWVj/NFL.png"
+  },
+
+  {
+    "partner_id": 12,
+    "name": "Sony Pictures Entertainment",
+    "img_url": "https://i.ibb.co/5kDGCGn/Sony-Pictures-Entertainment.jpg"
+  },
+
+  {
+    "partner_id": 13,
+    "name": "Taylor Swift",
+    "img_url": "https://i.ibb.co/y875kJ4/Taylor-Swift.png"
+  },
+  {
+    "partner_id": 14,
+    "name": "Linkin Park",
+    "img_url": "https://i.ibb.co/cDHFw4F/Linkin-Park.jpg"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "employee_id": 1,
+    "designation": "Event Manager",
+    "name": "Alex Johnson",
+    "img_url": "https://i.ibb.co/4RjYPnH/Alex-Johnson.jpg"
+  },
+  {
+    "employee_id": 2,
+    "designation": "Event Coordinator",
+    "name": "Emily Davis",
+    "img_url": "https://i.ibb.co/BfkzfVH/Emily-Davis.jpg"
+  },
+  {
+    "employee_id": 3,
+    "designation": "Venue Manager",
+    "name": "Michael Smith",
+    "img_url": "https://i.ibb.co/C9NgWxW/Michael-Smith.jpg"
+  },
+  {
+    "employee_id": 4,
+    "designation": "Logistics Coordinator",
+    "name": "Sophia Brown",
+    "img_url": "https://i.ibb.co/yBRtgxb/Sophia-Brown.jpg"
+  },
+  {
+    "employee_id": 5,
+    "designation": "Client Relations Manager",
+    "name": "Daniel Miller",
+    "img_url": "https://i.ibb.co/n6vsKcZ/Daniel-Miller.jpg"
+  },
+  {
+    "employee_id": 6,
+    "designation": "Marketing Specialist",
+    "name": "Olivia Wilson",
+    "img_url": "https://i.ibb.co/xFRyk3C/Olivia-Wilson.jpg"
+  },
+  {
+    "employee_id": 7,
+    "designation": "Creative Director",
+    "name": "William Johnson",
+    "img_url": "https://i.ibb.co/WH8hT9s/William-Johnson.jpg"
+  },
+  {
+    "employee_id": 8,
+    "designation": "Production Manager",
+    "name": "Ava Davis",
+    "img_url": "https://i.ibb.co/8B28MJ8/Ava-Davis.jpg"
+  },
+  {
+    "employee_id": 9,
+    "designation": "Catering Manager",
+    "name": "James Brown",
+    "img_url": "https://i.ibb.co/2hYfkM1/James-Brown.jpg"
+  },
+  {
+    "employee_id": 10,
+    "designation": "Budget Analyst",
+    "name": "Sophie Miller",
+    "img_url": "https://i.ibb.co/Y37WZ43/Sophie-Miller.jpg"
+  }
+]
