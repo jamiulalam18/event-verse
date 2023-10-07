@@ -10,7 +10,8 @@
       "Artist management",
       "Ticketing and seating arrangements",
       "Sound and lighting coordination"
-    ]
+    ],
+    "price": 5000
   },
   {
     "event_id": 2,
@@ -23,7 +24,8 @@
       "Vendor coordination",
       "Security and crowd management",
       "Sponsorship coordination"
-    ]
+    ],
+    "price": 10000
   },
   {
     "event_id": 3,
@@ -36,7 +38,8 @@
       "VIP guest management",
       "Media coordination",
       "After-party planning"
-    ]
+    ],
+    "price": 3000
   },
   {
     "event_id": 4,
@@ -49,7 +52,8 @@
       "Ticket sales and box office management",
       "Security and crowd control",
       "Broadcasting coordination"
-    ]
+    ],
+    "price": 12000
   },
   {
     "event_id": 5,
@@ -62,7 +66,8 @@
       "Venue setup and decoration",
       "Ticketing and promotion",
       "Audiovisual coordination"
-    ]
+    ],
+    "price": 2000
   },
   {
     "event_id": 6,
@@ -75,6 +80,7 @@
       "Nominee coordination",
       "Red carpet arrangements",
       "Stage and lighting design"
-    ]
+    ],
+    "price": 15000
   }
 ]
