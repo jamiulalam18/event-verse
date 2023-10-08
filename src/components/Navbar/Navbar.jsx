@@ -27,12 +27,29 @@ const navItems = (
         Upcoming Events
       </NavLink>
     </li>
+    <li className="">
+      <NavLink
+        className="font-bold hover:text-white hover:font-extrabold hover:bg-[#17B098]"
+        to={"/team"}
+      >
+        Meet The Team
+      </NavLink>
+    </li>
+    <li className="">
+      <NavLink
+        className="font-bold hover:text-white hover:font-extrabold hover:bg-[#17B098]"
+        to={"/contact"}
+      >
+        Contact Us
+      </NavLink>
+    </li>
+    
   </>
 );
 const Navbar = () => {
   return (
     <div className="max-w-screen-xl mx-auto">
-      <div className="fixed z-20 max-w-screen-xl w-full">
+      <div className="fixed z-20 max-w-screen-xl w-full bg-black rounded-full">
         <div className="navbar">
           <div className="navbar-start">
             <div className="dropdown">
@@ -54,7 +71,7 @@ const Navbar = () => {
               </label>
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 "
+                className="menu menu-sm text-black dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 "
               >
                 {navItems}
               </ul>
@@ -71,7 +88,7 @@ const Navbar = () => {
                 <div className="flex items-center bg-slate-500 rounded-full pr-4 gap-2">
                   <div className="avatar">
                     <div className="w-14 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                      <img src="/pro.png" />
+                      <img src="/profile-avatar.jpg" alt="/profile-avatar.jpg" />
                     </div>
                   </div>
                   <RxDropdownMenu />
@@ -79,7 +96,7 @@ const Navbar = () => {
               </label>
               <ul
                 tabIndex={0}
-                className="menu dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-52 mt-4"
+                className="menu dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-52 mt-4 text-black"
               >
                 <li>
                   <a>Item 1</a>

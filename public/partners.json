@@ -16,7 +16,7 @@
   },
   {
     "partner_id": 4,
-    "name": "International Olympic Committee (IOC)",
+    "name": "IOC",
     "img_url": "https://i.ibb.co/mR4Y0zQ/International-Olympic-Committee.png"
   },
   {
@@ -36,7 +36,7 @@
   },
   {
     "partner_id": 8,
-    "name": "International Cricket Council (ICC)",
+    "name": "ICC",
     "img_url": "https://i.ibb.co/Tqqynjb/International-Cricket-Council.png"
   },
 
@@ -52,13 +52,13 @@
   },
   {
     "partner_id": 11,
-    "name": "National Football League (NFL)",
+    "name": "NFL",
     "img_url": "https://i.ibb.co/pwSkWVj/NFL.png"
   },
 
   {
     "partner_id": 12,
-    "name": "Sony Pictures Entertainment",
+    "name": "Sony Pictures",
     "img_url": "https://i.ibb.co/5kDGCGn/Sony-Pictures-Entertainment.jpg"
   },
 

@@ -1,4 +1,5 @@
 import Slider from "../components/Hero/Slider";
+import HomeContents from "../components/HomeContents/HomeContents";
 import Navbar from "../components/Navbar/Navbar";
 
 const Home = () => {
@@ -6,9 +7,8 @@ const Home = () => {
         <div>
             <Navbar></Navbar>
             <Slider></Slider>
-            <h2>
-                This is the home page!
-            </h2>
+            <HomeContents></HomeContents>
+            
         </div>
     );
 };

@@ -49,6 +49,7 @@ const Slider = () => {
         <div className="card lg:card-side shadow-xl">
           <figure>
             <img
+            className="hidden md:block"
               src="/logo-2.png"
               alt="Album"
             />
