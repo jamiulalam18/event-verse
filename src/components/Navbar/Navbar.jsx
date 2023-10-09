@@ -19,22 +19,22 @@ const navItems = (
         Services
       </NavLink>
     </li>
-    <li className="">
+    {/* <li className="">
       <NavLink
         className="font-bold hover:text-white hover:font-extrabold hover:bg-[#17B098]"
         to={"/upcoming"}
       >
         Upcoming Events
       </NavLink>
-    </li>
-    <li className="">
+    </li> */}
+    {/* <li className="">
       <NavLink
         className="font-bold hover:text-white hover:font-extrabold hover:bg-[#17B098]"
         to={"/team"}
       >
         Meet The Team
       </NavLink>
-    </li>
+    </li> */}
     <li className="">
       <NavLink
         className="font-bold hover:text-white hover:font-extrabold hover:bg-[#17B098]"
@@ -76,7 +76,7 @@ const Navbar = () => {
                 {navItems}
               </ul>
             </div>
-            <img className="h-16" src="./logo-2.png" alt="logo" />
+            <img className="h-16" src="./../../../public/logo-2.png" alt="logo" />
             {/* <a className="btn btn-ghost normal-case text-xl">daisyUI</a> */}
           </div>
           <div className="navbar-center hidden lg:flex">

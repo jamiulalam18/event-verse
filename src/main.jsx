@@ -5,7 +5,7 @@ import './index.css'
 import {
   RouterProvider,
 } from "react-router-dom";
-import CustomRoute from './customRoute/CustomRoute';
+import CustomRoute from './CustomRoute/CustomRoute';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

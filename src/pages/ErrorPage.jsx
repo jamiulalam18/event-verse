@@ -1,7 +1,7 @@
 
 const ErrorPage = () => {
     return (
-        <div className="">
+        <div className="bg-black">
            <h2>
             This is the error page!
            </h2>
