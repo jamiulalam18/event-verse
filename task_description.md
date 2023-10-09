@@ -83,7 +83,7 @@ Your website has to be related to event management. Here, we have given you a li
 
 1. Answer to the questions given in the `questions_and_answers.md` file.:white_check_mark:
 
-2. Add at least 5 meaningful Github commits. Meaningful `readme.md` file containing your website name and a link to your live site. Add at least five bullet points mentioning different features and functionalities of your website.:x:
+2. Add at least 5 meaningful Github commits. Meaningful `readme.md` file containing your website name and a link to your live site. Add at least five bullet points mentioning different features and functionalities of your website.:white_check_mark:
 
 3. Make the website responsive. Make sure the site looks different on desktop and mobile responsive. Tablet responsive is optional.:white_check_mark:
 
@@ -94,13 +94,13 @@ Your website has to be related to event management. Here, we have given you a li
 1. Create your own fake data. You should load the data from a `.json` file.:white_check_mark:
 2. Host image on imgbb or any other hosting platform.:white_check_mark:
 3. You are free to use any css library you want.:white_check_mark:
-4. Environment variable is recommended but optional:x:
-5. Try to host your site on Firebase (netlifiy host will need extra configuration):x:
+4. Environment variable is recommended but optional:white_check_mark:
+5. Try to host your site on Firebase (netlifiy host will need extra configuration):white_check_mark: Hosted on Netlify
 
 ### :pushpin: What to submit
 
-1. Your github repository:x:
-2. Your live website link:x:
+1. Your github repository:white_check_mark:
+2. Your live website link:white_check_mark:
 
 ### :trophy: Earn your Reward:
 
