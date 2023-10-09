@@ -85,7 +85,7 @@ Your website has to be related to event management. Here, we have given you a li
 
 2. Add at least 5 meaningful Github commits. Meaningful `readme.md` file containing your website name and a link to your live site. Add at least five bullet points mentioning different features and functionalities of your website.:x:
 
-3. Make the website responsive. Make sure the site looks different on desktop and mobile responsive. Tablet responsive is optional.:x:
+3. Make the website responsive. Make sure the site looks different on desktop and mobile responsive. Tablet responsive is optional.:white_check_mark:
 
 4. Explore the [AOS package](https://www.npmjs.com/package/aos) and implement it your Homepage.:white_check_mark:
 

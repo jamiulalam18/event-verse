@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>Write your explanation here</i>
+<i>'greetign' is declared with "{}". So the output is same. In JS a variables can be declared and initialized without the var or let keywords. However, a value must be assigned to a variable declared without the var keyword. The variables declared without the var keyword become global variables, irrespective of where they are declared.</i>
 
 </p>
 </details>
@@ -43,9 +43,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>Parameter b is "2", which makes it a string type data. When it is added to another int, the sum works like string concatenation. The resulting data is a string.</i>
 
 </p>
 </details>
@@ -69,9 +69,9 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>Write your explanation here</i>
+<i>The variable 'food' was never changed. Value from 'food[0]' was assigned to info.favoriteFood. However, it does not change the value for 'food' </i>
 
 </p>
 </details>
@@ -94,9 +94,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
-<i>Write your explanation here</i>
+<i>Passing parameter in JS in optional. When a parameter is not passed, it will have 'undefined' value. In this case, no parameter was passed when 'sayHi()' function is called.</i>
 
 </p>
 </details>
@@ -122,9 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>When iterating over the 'nums' array, the first item is 0. The 'if(num)' condition here is false, so count value does not increase. For other three items, the count value increases.</i>
 
 </p>
 </details>
