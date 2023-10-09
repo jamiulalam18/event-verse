@@ -3,6 +3,8 @@ import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
 import { updateProfile } from "firebase/auth";
 import { auth } from "../../FirebaseConfig/FirebaseConfig";
+import { successToast } from "../Toasts/SuccessToast";
+import { errorToast } from "../Toasts/ErrorToast";
 const SignUpForm = () => {
   const { createUser } = useContext(AuthContext);
   const [errorText, setErrorText] = useState(<></>);
@@ -74,8 +76,7 @@ const SignUpForm = () => {
         updateProfile(auth.currentUser, {
           displayName: name, photoURL: photo
         }).then(() => {
-          // Profile updated!
-          // ...
+          successToast("Successfully Signed Up!!")
         }).catch((error) => {
           console.log(error);
         });
@@ -85,6 +86,7 @@ const SignUpForm = () => {
       })
       .catch((error) => {
         console.error(error);
+        errorToast("Could Not Sign Up!! Please Try Again Later");
       });
   };
 

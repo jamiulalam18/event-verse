@@ -50,11 +50,11 @@ Your website has to be related to event management. Here, we have given you a li
 
 6.  The service detail route will be a private/protected route. Please make sure that if the user is not logged in, the private route redirects to the login page.:white_check_mark:
 
-7.  You Must implement Email and password based Authentication. This means, you will have to implement the Registration and the login page. Users should be able to toggle between Login and Registration view .`Upon successful login or registration, you must show a toast/alert. Do not use the browser alert`.`:x:
+7.  You Must implement Email and password based Authentication. This means, you will have to implement the Registration and the login page. Users should be able to toggle between Login and Registration view .`Upon successful login or registration, you must show a toast/alert. Do not use the browser alert`.`:white_check_mark:
 
     > :warning: `Note:` Do not enforce `forget or reset password feature` and the `email verification method`, as it will inconvenience the examiner. If you want, you can add email verification/forget the password after receiving the assignment result.
 
-    On the Registration page, display errors when: :x:
+    On the Registration page, display errors when: :white_check_mark:
 
          The password
 
@@ -62,7 +62,7 @@ Your website has to be related to event management. Here, we have given you a li
          - don't have a capital letter
          - don't have a special character
 
-    On the Login page, display errors when::x:
+    On the Login page, display errors when::white_check_mark:
 
         - password doesn't match
         - email doesn't match
@@ -71,13 +71,13 @@ Your website has to be related to event management. Here, we have given you a li
 
 8.  Also, implement at least `one extra login` which could be (facebook, github, google, etc).:white_check_mark:
 
-9.  After reloading the page of a private route, the user should not be redirected to the login page.:x:
+9.  After reloading the page of a private route, the user should not be redirected to the login page.:white_check_mark:
 
-10. Once logged in, the user name, profile picture and the logout button should appear on the header. If the user clicks on the logout button, make sure to log him/her out.:x:
+10. Once logged in, the user name, profile picture and the logout button should appear on the header. If the user clicks on the logout button, make sure to log him/her out.:white_check_mark:
 
-11. Add two more routes. Relevant to your website. These two routes will be private. You can put anything relevant to your site on these two routes.:x:
+11. Add two more routes. Relevant to your website. These two routes will be private. You can put anything relevant to your site on these two routes.:white_check_mark:
 
-12. Add a 404 page (not found page):x:
+12. Add a 404 page (not found page):white_check_mark:
 
 ### :gift: Bonus Requirements:
 

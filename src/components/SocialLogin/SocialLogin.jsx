@@ -3,6 +3,8 @@ import { FcGoogle } from "react-icons/fc";
 import { useContext } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
 import { useLocation, useNavigate } from "react-router-dom";
+import { successToast } from "../Toasts/SuccessToast";
+import { errorToast } from "../Toasts/ErrorToast";
 const SocialLogin = () => {
   const { googleLogin } = useContext(AuthContext);
   const location = useLocation();
@@ -11,11 +13,14 @@ const SocialLogin = () => {
     media()
       .then(() => {
         // navigate after login
-        console.log(location);
+        // console.log(location);
+        successToast("Successfully Signed In!!")
         navigate(location?.state ? location.state : '/');
       })
       .catch((error) => {
-        alert(error.message);
+        // alert(error.message);
+        console.log(error.message);
+        errorToast("Could Not Sign In!! Please Try Again Later")
       });
   };
   return (
