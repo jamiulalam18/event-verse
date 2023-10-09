@@ -1,9 +1,10 @@
+import logo_url from './../../../public/logo-2.png';
 const Footer = () => {
   return (
     <div>
       <footer className="footer footer-center p-10 bg-black text-primary-content">
         <aside>
-          <img src="./../../../public/logo-2.png" className="w-28" alt="" />
+          <img src={logo_url} className="w-28" alt="" />
           <p className="font-bold">
             Event Verse Entertainment Ltd. <br />
             Redefining events since 2020

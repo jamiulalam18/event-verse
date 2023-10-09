@@ -3,6 +3,7 @@ import { RxDropdownMenu } from "react-icons/rx";
 import { useContext } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
 import { PiSignOutBold } from "react-icons/pi";
+import logo_url from './../../../public/logo-2.png';
 
 const navItems = (
   <>
@@ -77,7 +78,7 @@ const Navbar = () => {
             </div>
             <img
               className="h-8 md:h-16"
-              src="./../../../public/logo-2.png"
+              src={logo_url}
               alt="logo"
             />
           </div>

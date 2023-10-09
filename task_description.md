@@ -81,7 +81,7 @@ Your website has to be related to event management. Here, we have given you a li
 
 ### :gift: Bonus Requirements:
 
-1. Answer to the questions given in the `questions_and_answers.md` file.:x:
+1. Answer to the questions given in the `questions_and_answers.md` file.:white_check_mark:
 
 2. Add at least 5 meaningful Github commits. Meaningful `readme.md` file containing your website name and a link to your live site. Add at least five bullet points mentioning different features and functionalities of your website.:x:
 
