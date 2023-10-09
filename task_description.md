@@ -69,7 +69,7 @@ Your website has to be related to event management. Here, we have given you a li
 
     `You can take the error message from firebase`. You can show the error below the input fields or via alert/toast. `If you use alert/toast, do not implement the browser alert`.
 
-8.  Also, implement at least `one extra login` which could be (facebook, github, google, etc).:x:
+8.  Also, implement at least `one extra login` which could be (facebook, github, google, etc).:white_check_mark:
 
 9.  After reloading the page of a private route, the user should not be redirected to the login page.:x:
 

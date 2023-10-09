@@ -7,6 +7,8 @@ import ServicesDetails from "../pages/ServicesDetails";
 import ContactDetails from "../pages/ContactDetails";
 import SignInPage from "../pages/SignInPage";
 import SignUpPage from "../pages/SignUpPage";
+import TeamMembers from "../pages/TeamMembers";
+import PrivateRoute from "../PrivateRoute/PrivateRoute";
 
 const CustomRoute = createBrowserRouter([
   {
@@ -20,16 +22,28 @@ const CustomRoute = createBrowserRouter([
       },
       {
         path: "/services",
-        element: <Services></Services>,
+        element: (
+          <PrivateRoute>
+            <Services></Services>
+          </PrivateRoute>
+        ),
       },
       {
         path: "/eventDetails/:id",
-        element: <ServicesDetails></ServicesDetails>,
+        element: (
+          <PrivateRoute>
+            <ServicesDetails />
+          </PrivateRoute>
+        ),
         loader: () => fetch(`/events.json`),
       },
       {
         path: "/contact",
-        element: <ContactDetails></ContactDetails>,
+        element: (
+          <PrivateRoute>
+            <ContactDetails></ContactDetails>
+          </PrivateRoute>
+        ),
       },
       {
         path: "/signin",
@@ -38,6 +52,15 @@ const CustomRoute = createBrowserRouter([
       {
         path: "/signup",
         element: <SignUpPage></SignUpPage>,
+      },
+      {
+        path: "/team",
+        element: (
+          <PrivateRoute>
+            <TeamMembers></TeamMembers>
+          </PrivateRoute>
+        ),
+        loader: () => fetch(`/team.json`),
       },
     ],
   },

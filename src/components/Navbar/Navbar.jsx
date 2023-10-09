@@ -2,6 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 import { RxDropdownMenu } from "react-icons/rx";
 import { useContext } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
+import { PiSignOutBold } from "react-icons/pi";
 
 const navItems = (
   <>
@@ -24,6 +25,14 @@ const navItems = (
     <li className="">
       <NavLink
         className="font-bold hover:text-white hover:font-extrabold hover:bg-[#17B098]"
+        to={"/team"}
+      >
+        Meet Our Team
+      </NavLink>
+    </li>
+    <li className="">
+      <NavLink
+        className="font-bold hover:text-white hover:font-extrabold hover:bg-[#17B098]"
         to={"/contact"}
       >
         Contact Us
@@ -33,7 +42,7 @@ const navItems = (
 );
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
-  const { displayName, email, photoURL } = user;
+  // const { displayName, email, photoURL } = user;
   const handleSignOut = () => {
     logOut().then().catch();
   };
@@ -82,7 +91,7 @@ const Navbar = () => {
                   <div className="flex items-center bg-slate-500 rounded-full pr-4 gap-2">
                     <div className="avatar">
                       <div className="w-14 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                        <img src={photoURL} alt="/profile-avatar.jpg" />
+                        <img src={user?.photoURL} alt="/profile-avatar.jpg" />
                       </div>
                     </div>
                     <RxDropdownMenu />
@@ -93,13 +102,21 @@ const Navbar = () => {
                   className="menu dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-52 mt-4 text-black"
                 >
                   <li>
-                    <div className="flex flex-col items-start hover:cursor-default bg-slate-300 hover:bg-slate-300 glass">
-                      <h2 className="font-bold">{displayName}</h2>
-                      <h2>{email}</h2>
+                    <div className="flex flex-col items-start hover:cursor-default bg-slate-300 hover:bg-slate-300 glass mb-3">
+                      <h2 className="font-bold">{user?.displayName}</h2>
+                      <h2>{user?.email}</h2>
                     </div>
                   </li>
                   <li>
-                    <h2>Sign Out</h2>
+                    <button
+                      onClick={handleSignOut}
+                      className="flex items-center hover:cursor-default bg-slate-400 hover:bg-slate-500 glass text-2xl"
+                    >
+                      <h2>
+                        <PiSignOutBold />
+                      </h2>
+                      <h2>Sign Out</h2>
+                    </button>
                   </li>
                 </ul>
               </div>
