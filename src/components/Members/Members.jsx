@@ -3,7 +3,6 @@ import Member from "./Member";
 
 const Members = () => {
     const members = useLoaderData();
-    console.log(members);
     return (
         <div className="max-w-screen-xl mx-auto pt-12">
             <h1 className="text-5xl text-center font-bold text-white mb-4 pt-8 pb-2 border-b-2 border-white">Meet Our Awesome <br />Team</h1>

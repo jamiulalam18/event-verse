@@ -91,7 +91,7 @@ const Navbar = () => {
                   <div className="flex items-center bg-slate-500 rounded-full pr-4 gap-2">
                     <div className="avatar">
                       <div className="w-14 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                        <img src={user?.photoURL} alt="/profile-avatar.jpg" />
+                        <img src={user?.photoURL ? (user?.photoURL):('./../../../public/profile-avatar.jpg')} alt="profile" />
                       </div>
                     </div>
                     <RxDropdownMenu />
@@ -121,11 +121,18 @@ const Navbar = () => {
                 </ul>
               </div>
             ) : (
-              <Link to={"/signin"}>
-                <button className="bg-slate-700 glass px-6 py-3 rounded-full font-bold capitalize text-xl hover:bg-slate-900">
-                  Sign In
-                </button>
-              </Link>
+              <div>
+                <Link to={"/signup"}>
+                  <button className="bg-slate-700 mr-2 glass px-6 py-3 rounded-full font-bold capitalize text-xl hover:bg-slate-900">
+                    Sign Up
+                  </button>
+                </Link>
+                <Link to={"/signin"}>
+                  <button className="bg-slate-700 glass px-6 py-3 rounded-full font-bold capitalize text-xl hover:bg-slate-900">
+                    Sign In
+                  </button>
+                </Link>
+              </div>
             )}
             {/* <div className="dropdown dropdown-end">
               <label tabIndex={0} className="">

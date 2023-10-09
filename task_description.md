@@ -48,7 +48,7 @@ Your website has to be related to event management. Here, we have given you a li
 
 5.  Clicking on the specific button will take the user to the service detail route. Each route should display detailed information of the service. What you will include in the detailed information is entirely upto you but make sure it is relevant.:white_check_mark:
 
-6.  The service detail route will be a private/protected route. Please make sure that if the user is not logged in, the private route redirects to the login page.:x:
+6.  The service detail route will be a private/protected route. Please make sure that if the user is not logged in, the private route redirects to the login page.:white_check_mark:
 
 7.  You Must implement Email and password based Authentication. This means, you will have to implement the Registration and the login page. Users should be able to toggle between Login and Registration view .`Upon successful login or registration, you must show a toast/alert. Do not use the browser alert`.`:x:
 
