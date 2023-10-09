@@ -76,7 +76,7 @@ const Navbar = () => {
               </ul>
             </div>
             <img
-              className="h-16"
+              className="h-8 md:h-16"
               src="./../../../public/logo-2.png"
               alt="logo"
             />
@@ -123,12 +123,12 @@ const Navbar = () => {
             ) : (
               <div>
                 <Link to={"/signup"}>
-                  <button className="bg-slate-700 mr-2 glass px-6 py-3 rounded-full font-bold capitalize text-xl hover:bg-slate-900">
+                  <button className="bg-slate-700 mr-2 glass px-2 md:px-6 py-2 rounded-full font-bold capitalize text-sm md:text-xl hover:bg-slate-900">
                     Sign Up
                   </button>
                 </Link>
                 <Link to={"/signin"}>
-                  <button className="bg-slate-700 glass px-6 py-3 rounded-full font-bold capitalize text-xl hover:bg-slate-900">
+                  <button className="bg-slate-700 glass px-2 md:px-6 py-2 rounded-full font-bold capitalize text-sm md:text-xl hover:bg-slate-900">
                     Sign In
                   </button>
                 </Link>

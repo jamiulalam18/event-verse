@@ -91,7 +91,7 @@ const SignUpForm = () => {
   };
 
   return (
-    <div className="bg-white p-6 rounded-lg">
+    <div className="bg-white py-6 px-1 md:px-6 rounded-lg">
       <div className="relative flex flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none">
         <h4 className="block font-sans text-2xl font-semibold leading-snug tracking-normal text-gray-900 antialiased">
           Sign Up

@@ -24,7 +24,7 @@ const SocialLogin = () => {
       });
   };
   return (
-    <div className="bg-white p-6 rounded-lg">
+    <div className="bg-white py-6 px-1 md:px-6 rounded-lg">
       <div className="mt-2 mb-2 w-80 max-w-screen-lg sm:w-96">
         <div className="relative flex flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none">
           <h4 className="block text-center font-sans text-2xl font-semibold leading-snug tracking-normal text-gray-900 antialiased">

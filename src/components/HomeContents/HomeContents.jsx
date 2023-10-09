@@ -13,8 +13,8 @@ const HomeContents = () => {
       <Stats></Stats>
       <Partners></Partners>
 
-        <div className="grid grid-cols-4 gap-6">
-            <div  className="col-span-3">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div  className=" col-span-1 md:col-span-2 lg:col-span-3">
                 <HomeItems />
             </div>
             <div className="col-span-1">

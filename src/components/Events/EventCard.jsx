@@ -14,9 +14,9 @@ const EventCard = ({event}) => {
 
     useEffect(() => {
       if(parseInt(event_id)%2===0){
-        setFadeClass('slide-left')
+        setFadeClass('zoom-in');
       }else{
-        setFadeClass('slide-right')
+        setFadeClass('zoom-in')
       }
     }, [event_id])
   return (
