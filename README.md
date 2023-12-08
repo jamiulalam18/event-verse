@@ -5,6 +5,7 @@ An event management company website.
 
 ## Live Preview
 Link: https://eventverse-jamiulalam18.netlify.app/
+
 Code: https://github.com/jamiulalam18/event-verse
 
 # Features of the project
